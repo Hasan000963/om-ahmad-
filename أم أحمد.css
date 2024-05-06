@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+.A{
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.B {
+    color: yellow;
+    background-color: blue;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+.row1::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.C{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.D{
+    color: yellow;
+    background-color: blue;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.H{
+    color: yellow;
+    background-color: blue;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.N{
+    width: 33.33%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.S{
+    color: brown;
+    background-color: blue;
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
